@@ -62,5 +62,10 @@ body{
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    transition: transform 0.4s ease-in-out;
     background: linear-gradient(to top right, rgb(157, 53, 255),rgb(0, 195, 255) 84%);
+}
+
+.reset:hover{
+    transform: scale(1.1);
 }
